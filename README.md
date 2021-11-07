@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/63364350/140642301-d7c7f197-77c9-4c2a-826c-b34269a31ca9.png)
+
 # StockMarketPrediction-Unsupervised-KMean-Deployment-Heroku
 
 This Repository talks about the stock market prediction based on the dataset which does not have label. Hence there is a need for a model which can predict from the input features based on the similar properties and group them into a clusters . Kmean Algorithm is used in order to predict the model . Further the web framework is created using Flask and deployed it on to the Heroku platform 
