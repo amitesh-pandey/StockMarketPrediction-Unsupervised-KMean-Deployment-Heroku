@@ -6,3 +6,7 @@ This Repository talks about the stock market prediction based on the dataset whi
 
 Please find below the deployable link for your reference: 
 https://unsuperstock.herokuapp.com/
+
+Here based on the clusters , the result will be displayed in the groups: 
+
+![image](https://user-images.githubusercontent.com/63364350/140642345-a3c2b147-6d18-4d15-9e9f-0a9b98876fa8.png)
