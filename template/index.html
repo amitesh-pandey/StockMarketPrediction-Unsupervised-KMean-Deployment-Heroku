@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Market Prediction</title>
+    <style>
+    body{
+            background-image: url("{{url_for('static', filename='image.jpg')}}");
+            background-repeat: no-repeat;
+            background-size: 100% 400%;
+    }
+</style>
+</head>
+<body background="image.jpg">
+    <div style="text-align:center;">
+        <h1 style ="color:black;font-size=40;"> Stock Market Prediction  </h1>
+    <form action = "/submit", method="POST">
+        <input type="text" name="Stock1" placeholder="Stock1" size="50" required><br><br>
+        <input type="text" name="Stock2" placeholder="Stock2" size="50"  required><br><br>
+        <input type = "submit" value = "submit">
+    </form>
+    </div>
+</body>
+</html>
